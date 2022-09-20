@@ -1,3 +1,14 @@
-<p>
-  login works!
-</p>
+<br>
+<h3>Inicio de sesión</h3><br>
+<ion-content>
+<ion-item>
+  <ion-label position="floating">Nombre de usuario</ion-label>
+  <ion-input type="text" placeholder="@ejemplo-usuario"></ion-input>
+</ion-item><br>
+<ion-item>
+  <ion-label position="floating">Contraseña</ion-label>
+  <ion-input type="password" placeholder="********"></ion-input>
+</ion-item><br>
+<ion-button expand="block">Iniciar sesión</ion-button>
+<ion-button expand="block" [routerLink]="['/auth/register']">Registrarse</ion-button>
+</ion-content>
